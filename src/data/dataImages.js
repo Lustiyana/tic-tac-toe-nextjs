@@ -29,6 +29,51 @@ export const dataImages = [
     image: "/images/gambar-6.jpg",
     answer: "NEW RULES",
   },
+  {
+    id: 10,
+    image: "/images/gambar-10.jpeg",
+    answer: "CINTA SATU MALAM",
+  },
+  {
+    id: 11,
+    image: "/images/gambar-11.jpeg",
+    answer: "MENGEJAR MATAHARI",
+  },
+  {
+    id: 12,
+    image: "/images/gambar-12.jpeg",
+    answer: "HILANG TANPA BILANG",
+  },
+  {
+    id: 13,
+    image: "/images/gambar-13.jpeg",
+    answer: "BUNGA HATI",
+  },
+  {
+    id: 14,
+    image: "/images/gambar-14.jpeg",
+    answer: "HATI HATI DI JALAN",
+  },
+  {
+    id: 15,
+    image: "/images/gambar-15.jpeg",
+    answer: "MENGHAPUS JEJAKMU",
+  },
+  {
+    id: 16,
+    image: "/images/gambar-16.jpeg",
+    answer: "SATU SATU",
+  },
+  {
+    id: 17,
+    image: "/images/gambar-17.jpeg",
+    answer: "SAMPAI TUA BERSAMA",
+  },
+  {
+    id: 18,
+    image: "/images/gambar-18.jpeg",
+    answer: "KUPU KUPU",
+  },
 ];
 
 export const dataImagesExample = [

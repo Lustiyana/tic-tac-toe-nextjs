@@ -129,6 +129,7 @@ export default function PageComponent({ dataImages }) {
     }
   }, [pointO, pointX]);
 
+
   return (
     <>
       {finish && !canPlay ? (
@@ -155,10 +156,14 @@ export default function PageComponent({ dataImages }) {
           </h1>
           <div className="grid grid-cols-2">
             <div className="border-r-2 flex flex-col items-center justify-center gap-4">
-              <img
-                src={dataImages[indexQuestion]?.image}
-                className="w-72"
-              ></img>
+              {canPlay ? (
+                <img src="/censored.png" alt="" className="w-72" />
+              ) : (
+                <img
+                  src={dataImages[indexQuestion]?.image}
+                  className="w-72"
+                ></img>
+              )}
               <form
                 className="flex flex-col gap-4 px-8"
                 onSubmit={handleSubmitAnswer}
@@ -183,7 +188,11 @@ export default function PageComponent({ dataImages }) {
                     value={answer.player == "O" ? answer.answer : ""}
                   />
                 </label>
-                <button className="btn btn-primary" type="submit">
+                <button
+                  className="btn btn-primary"
+                  type="submit"
+                  disabled={canPlay}
+                >
                   SUBMIT
                 </button>
               </form>

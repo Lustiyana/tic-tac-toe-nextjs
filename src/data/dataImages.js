@@ -11,33 +11,48 @@ export const dataImages = [
   },
   {
     id: 3,
+    image: "/images/lirik-5.png",
+    answer: "TITANIUM",
+  },
+  {
+    id: 4,
     image: "/images/gambar-3.png",
     answer: "INTERAKSI",
   },
   {
-    id: 4,
+    id: 5,
     image: "/images/gambar-4.png",
     answer: "JANJI SETIA",
   },
   {
-    id: 5,
+    id: 6,
+    image: "/images/lirik-1.png",
+    answer: "LOVE STORY",
+  },
+  {
+    id: 7,
     image: "/images/gambar-5.jpg",
     answer: "BABY",
   },
   {
-    id: 9,
+    id: 8,
     image: "/images/gambar-6.jpg",
     answer: "NEW RULES",
   },
   {
-    id: 10,
+    id: 9,
     image: "/images/gambar-10.jpeg",
     answer: "CINTA SATU MALAM",
   },
   {
-    id: 11,
+    id: 10,
     image: "/images/gambar-11.jpeg",
     answer: "MENGEJAR MATAHARI",
+  },
+  {
+    id: 11,
+    image: "/images/lirik-2.png",
+    answer: "MY LOVE",
   },
   {
     id: 12,
@@ -61,35 +76,50 @@ export const dataImages = [
   },
   {
     id: 16,
+    image: "/images/lirik-3.png",
+    answer: "TAKE ME HOME COUNTRY ROADS",
+  },
+  {
+    id: 17,
     image: "/images/gambar-16.jpeg",
     answer: "SATU SATU",
   },
   {
-    id: 17,
+    id: 18,
     image: "/images/gambar-17.jpeg",
     answer: "SAMPAI TUA BERSAMA",
   },
   {
-    id: 18,
+    id: 19,
     image: "/images/gambar-18.jpeg",
     answer: "KUPU KUPU",
+  },
+  {
+    id: 20,
+    image: "/images/lirik-4.png",
+    answer: "SOMEONE LIKE YOU",
   },
 ];
 
 export const dataImagesExample = [
   {
-    id: 6,
+    id: 1,
     image: "/images/gambar-7.png",
     answer: "NAIK DELMAN",
   },
   {
-    id: 7,
+    id: 2,
     image: "/images/gambar-8.png",
     answer: "LIHAT KEBUNKU",
   },
   {
-    id: 8,
+    id: 3,
     image: "/images/gambar-9.png",
     answer: "BINTANG KECIL",
+  },
+  {
+    id: 4,
+    image: "/images/lirik-6.png",
+    answer: "THE LAZY SONG",
   },
 ];
